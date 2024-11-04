@@ -1,6 +1,8 @@
-CREATE TABLE Manager (
+﻿CREATE TABLE Manager (
     Username VARCHAR(20) PRIMARY KEY,
-    Password VARCHAR(20) NOT NULL
+    Password VARCHAR(20) NOT NULL,
+	Name VARCHAR(20) NOT NULL,
+	ID_Manager VARCHAR(20) NOT NULL,
 	);
 	CREATE TABLE Customer (
     ID_Customer INT PRIMARY KEY,
@@ -81,4 +83,8 @@ CREATE TABLE Receipt (
     Totalpayment DECIMAL(10, 2),
     FOREIGN KEY (ID_Customer) REFERENCES Customer(ID_Customer),
     FOREIGN KEY (ID_Room) REFERENCES Room(ID_Room)
-);
+); 
+INSERT INTO Manager ( Username, Password, Name, ID_Manager)
+VALUES ('Thao Nhi', '24102005', 'Nhi', '01');
+INSERT INTO Employee( ID_Employee,Name,Gender,DOB,PhoneNumber,Address,Role,Username,Password)
+VALUES ('01','Nhi', 'Nữ', '2005-10-24', '0706003022', 'Chung cư 4s', 'Receiptor', 'Thao Nhi', '24102005');
