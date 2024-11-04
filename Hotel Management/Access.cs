@@ -16,7 +16,7 @@ namespace Hotel_Management
         {
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
-            SqlCommand command = new SqlCommand("SELECT * FROM dbo.manager WHERE Username = @User AND Password = @Pass", db.getConnection);
+            SqlCommand command = new SqlCommand("SELECT * FROM dbo.Manager WHERE Username = @User AND Password = @Pass", db.getConnection);
             command.Parameters.Add("@User", SqlDbType.VarChar).Value = username;
             command.Parameters.Add("@Pass", SqlDbType.VarChar).Value = password;
             adapter.SelectCommand = command;
@@ -41,7 +41,7 @@ namespace Hotel_Management
         {
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
-            SqlCommand command = new SqlCommand("SELECT * FROM dbo.employee WHERE Username = @User AND Password = @Pass", db.getConnection);
+            SqlCommand command = new SqlCommand("SELECT * FROM dbo.Employee WHERE Username = @User AND Password = @Pass", db.getConnection);
             command.Parameters.Add("@User", SqlDbType.VarChar).Value = username;
             command.Parameters.Add("@Pass", SqlDbType.VarChar).Value = password;
             adapter.SelectCommand = command;

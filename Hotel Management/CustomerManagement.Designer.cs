@@ -45,7 +45,7 @@
             this.customerBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.hotelDataDataSet1 = new Hotel_Management.HotelDataDataSet1();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hotelDataDataSet = new Hotel_Management.HotelDataDataSet();
+            this.hotelDataDataSet = new Hotel_Management.HotelDataSet();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtidcustomer = new System.Windows.Forms.TextBox();
             this.txtnationcustomer = new System.Windows.Forms.TextBox();
@@ -535,7 +535,7 @@
         private Guna.UI2.WinForms.Guna2Button btndeletecustomer;
         private Guna.UI2.WinForms.Guna2Button btnclose;
         private System.Windows.Forms.TextBox txtidcustomer;
-        private HotelDataDataSet hotelDataDataSet;
+        private HotelDataSet hotelDataDataSet;
         private System.Windows.Forms.BindingSource customerBindingSource;
         private HotelDataDataSetTableAdapters.CustomerTableAdapter customerTableAdapter;
         private System.Windows.Forms.DataGridView datagridviewlistcustomer;

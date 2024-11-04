@@ -108,10 +108,10 @@
     </Compile>
     <Compile Include="Customer0.cs" />
     <Compile Include="Globals.cs" />
-    <Compile Include="HotelDataDataSet.Designer.cs">
+    <Compile Include="HotelDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HotelDataDataSet.xsd</DependentUpon>
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="HotelDataDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -260,16 +260,16 @@
     <EmbeddedResource Include="SalaryEmployee.resx">
       <DependentUpon>SalaryEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="HotelDataDataSet.xsc">
-      <DependentUpon>HotelDataDataSet.xsd</DependentUpon>
+    <None Include="HotelDataSet.xsc">
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
     </None>
-    <None Include="HotelDataDataSet.xsd">
+    <None Include="HotelDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HotelDataDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>HotelDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="HotelDataDataSet.xss">
-      <DependentUpon>HotelDataDataSet.xsd</DependentUpon>
+    <None Include="HotelDataSet.xss">
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
     </None>
     <None Include="HotelDataDataSet1.xsc">
       <DependentUpon>HotelDataDataSet1.xsd</DependentUpon>
